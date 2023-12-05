@@ -1,1 +1,77 @@
 @use '../../sass/variables' as *;
+
+.login {
+    height: 100vh;
+    width: 100vw;
+
+    .login__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 15vh;
+    }
+
+    h1 {
+        color: $black;
+        font-size: 2vw;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-bottom: 1vh;
+    }
+
+    h2 {
+        color: $black;
+        font-size: 1.4vw;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    .login__input-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    button {
+        width: 35vw;
+        height: 6vh;
+        padding: 1.5vh 1vw;
+        border-radius: 6px;
+        border: none;
+        margin-top: 4vh;
+
+        background: $contrast-color;
+
+        color: $white;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+}
+
+.login__input-wrapper {
+    margin-top: 10vh;
+
+    label {
+        color: $black;
+        font-size: 1.2vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    input {
+        width: 35vw;
+        height: 6vh;
+        padding: 1.5vh 1vw;
+        margin-top: 1.5vh;
+        margin-bottom: 3vh;
+
+        border-radius: 10px;
+        border: 2px solid $border-input-color;
+        background: rgba(255, 255, 255, 0.90);
+    }
+}

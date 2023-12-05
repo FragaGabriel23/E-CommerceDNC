@@ -4,7 +4,7 @@
     height: 100vh;
     width: 100vw;
 
-    .login__form {
+    &__form {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -28,7 +28,7 @@
         line-height: normal;
     }
 
-    .login__input-wrapper {
+    &__input-wrapper {
         display: flex;
         flex-direction: column;
     }

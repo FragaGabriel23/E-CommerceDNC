@@ -1,0 +1,10 @@
+@use '../../sass/variables' as *;
+
+.Header {
+    padding: 3vh 0 4vh 7vh;
+    background-color: $header-background;
+
+    img {
+        width: 15vh;
+    }
+}

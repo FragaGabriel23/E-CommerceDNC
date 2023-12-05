@@ -5,7 +5,7 @@ import './index.scss'
 const Header = () => {
   return (
     <header className='Header'>
-        <img src={DNCLogo} alt="Logo DNC"/>
+        <img className='Header__img' src={DNCLogo} alt="Logo DNC"/>
     </header>
   )
 }

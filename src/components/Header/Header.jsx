@@ -1,14 +1,14 @@
 import React from 'react'
-import DNCLogo from '../../assets/logo-dnc.png'
 import './index.scss'
+import DNCLogo from '../../assets/logo-dnc.png'
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header className='Header'>
-        <img className='Header__img' src={DNCLogo} alt="Logo DNC"/>
+      <img className='Header__img' src={DNCLogo} alt="Logo DNC" />
+      {props.menu}
     </header>
   )
 }
 
 export default Header
- 

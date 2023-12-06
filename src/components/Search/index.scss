@@ -1,0 +1,41 @@
+@use '../../sass/variables' as *;
+
+.Search {
+    display: flex;
+    gap: 3vw;
+    padding: 5vh 0 5vh 9vw;
+
+    &__Icons {
+        display: flex;
+        gap: 1vw;
+        cursor: pointer;
+    }
+}
+
+.Search__input {
+    position: relative;
+    
+
+    input {
+        width: 78vw;
+        height: 6vh;
+        border-radius: 10px;
+        border: 1px solid $border-input-color;
+        padding-left: 4vw;
+
+        font-size: 1.2vw;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    img {
+        position: absolute;
+        left: 1vw;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+    }
+
+}
+

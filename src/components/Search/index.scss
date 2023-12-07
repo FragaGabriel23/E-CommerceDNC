@@ -3,12 +3,16 @@
 .Search {
     display: flex;
     gap: 3vw;
-    padding: 5vh 0 5vh 9vw;
+    padding: 5vh 0 5vh 7vw;
 
     &__Icons {
         display: flex;
         gap: 1vw;
         cursor: pointer;
+
+        img {
+            width: 1.8vw;
+        }
     }
 }
 
@@ -17,13 +21,13 @@
     
 
     input {
-        width: 78vw;
-        height: 6vh;
+        width: 81vw;
+        height: 5vh;
         border-radius: 10px;
         border: 1px solid $border-input-color;
         padding-left: 4vw;
 
-        font-size: 1.2vw;
+        font-size: 1.1vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;

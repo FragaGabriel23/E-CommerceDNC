@@ -17,7 +17,7 @@
         padding: 0 0 0 3vw;
 
         color: $black;
-        font-size: 1.35vw;
+        font-size: 1.20vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -28,22 +28,23 @@
     li:hover {
         color: #555555;
         font-weight: 600;
-        transition: 400ms;
+        
         transform: translateX(1px) translateY(-0.5vh);
         text-shadow: 0.1vw 0.5vh 0.8vh rgba(0, 0, 0, 0.525);
+        transition: 400ms;
     }
 
     div {
         display: flex;
-        gap: 1vw;
         align-items: center;
-        cursor: pointer;
+        gap: 1vw;
 
+        cursor: pointer;
     }
 
     h2 {
         color: $black;
-        font-size: 1.35vw;
+        font-size: 1.20vw;
         font-style: normal;
         font-weight: 500;
         line-height: normal;
@@ -52,6 +53,7 @@
         &:hover {
             color: #555555;
             font-weight: 600;
+            
             transform: translateX(1px) translateY(-0.5vh);
             transition: 400ms;
             text-shadow: 0.1vw 0.5vh 0.8vh rgba(0, 0, 0, 0.525);
@@ -61,11 +63,7 @@
     }
 
     &__img {
-        width: 2.7vw;
-        height: 6vh;
+        width: 2vw;
     }
 
-    &--select {
-        font-weight: 600;
-    }
 }

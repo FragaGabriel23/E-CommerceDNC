@@ -1,6 +1,6 @@
 import React from 'react'
 import './index.scss'
-import DNCLogo from '../../assets/logo-dnc.png'
+import DNCLogo from '../../assets/logo-dnc.svg'
 
 const Header = (props) => {
   return (

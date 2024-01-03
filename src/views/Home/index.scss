@@ -1,1 +1,9 @@
 @use '../../sass/variables' as *;
+
+.home__products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    row-gap: 5vh;
+    padding: 1vh 0;
+}

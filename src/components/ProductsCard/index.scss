@@ -1,0 +1,27 @@
+@use '../../sass/variables' as *;
+
+.home__card {
+    border-radius: 8px;
+    border: 1px solid $border-background-card;
+
+    &-description {
+        text-align: center;
+        font-size: 1vw;
+        font-style: normal;
+        font-weight: 400;
+        padding: 2vh 0;
+
+        button {
+            border: 1px solid rgba(0, 0, 0, 0.30);
+            background: $contrast-color;
+            padding: 1vh 3vw;
+            color: $white;
+            margin-top: 2vh;
+
+            font-size: 1vw;
+            font-style: normal;
+            font-weight: 700;
+        }
+
+    }
+}

@@ -1,0 +1,124 @@
+@use '../../sass/variables' as *;
+
+.ProductDetail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3vh 0;
+    column-gap: 5vw;
+}
+
+.ProductDetail__Left {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    margin-top: 15vh;
+    align-items: center;
+}
+
+.ProductDetail__Card {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    border-radius: 8px;
+    border: 1px solid $border-background-card;
+
+    text-align: center;
+
+    img {
+        border-top-left-radius: inherit;
+        border-top-right-radius: inherit;
+    }
+
+    p {
+        padding: 2vh 1vw;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+}
+
+.ProductDetail__Description {
+    width: 100%;
+
+    h1 {
+        text-shadow: 0px 4px 4px rgba(203, 203, 203, 0.25);
+        font-size: 2vw;
+        font-style: normal;
+        font-weight: 500;
+    }
+
+    h2 {
+        font-size: 1.4vw;
+        font-style: normal;
+        font-weight: 400;
+        margin: 2vh 0 3vh 0;
+    }
+
+}
+
+.bar {
+    height: 1px;
+    border: 1px solid $border-background-card;
+}
+
+.ProductDetail__Right {
+    width: 50vw;
+
+    &--Title {
+        text-align: center;
+        text-shadow: 0px 4px 4px rgba(203, 203, 203, 0.25);
+        font-size: 2.2vw;
+        font-style: normal;
+        font-weight: 400;
+        padding: 1vh 0 5vh 0;
+    }
+
+    button {
+        width: 100%;
+        background-color: $contrast-color;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 0, 0, 0.30);
+        padding: 1vh 2vw;
+
+        color: $white;
+        text-align: center;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;
+    }
+
+}
+
+.ProductDetail__main {
+    h1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5vw;
+        font-style: normal;
+        font-weight: 600;
+
+        margin-top: 6vh;
+    }
+
+    h2 {
+        text-shadow: 0px 4px 4px rgba(203, 203, 203, 0.25);
+        font-size: 1.8vw;
+        font-style: normal;
+        font-weight: 400;
+        margin-top: 5vh;
+    }
+
+}
+
+.ProductDetail__cube-color {
+    display: flex;
+    column-gap: 1vw;
+    margin: 4vh 0;
+}
+
+.ProductDetail__cube-sizes {
+    display: flex;
+    column-gap: 1vw;
+    margin: 4vh 0; 
+}

@@ -1,13 +1,14 @@
 import React from 'react'
 import './index.scss'
 import cartshop from '../../assets/cartshop.svg'
+import { Link } from 'react-router-dom'
 
 const HeaderMenu = (props) => {
   return (
     <nav className='Header-Menu'>
 
       <ul>
-        <li className='Header-Menu--select'>Home</li>
+        <li className='Header-Menu--select'><Link to={"/home"}>Home</Link></li>
         <li>Novidades</li>
         <li>Feminino</li>
         <li>Masculino</li>

@@ -1,12 +1,32 @@
 @use '../../sass/variables' as *;
+@use '../../sass/mediaQueries' as *;
 
 .Header {
     padding: 2vh 6vh;
     height: 10vh;
     background-color: $header-background;
     box-shadow: 0vw 0.4vh 0.5vh 0px #9b9a9a67;
-    
+
+    @include respond-to-small {
+        padding: 2vh 2.5vw;
+    }
+
+    @include respond-to-medium {
+        padding: 2vh 2.5vw;
+    }
+
     &__img {
         width: 10vh;
+
+        @include respond-to-small {
+            width: 5vh;
+        }
+
+        @include respond-to-medium {
+            width: 5vh;
+        }
+        @include respond-to-large {
+            width: 8vw;
+        }
     }
 }

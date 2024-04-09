@@ -2,9 +2,10 @@
 
 .Header {
     padding: 2vh 6vh;
+    height: 10vh;
     background-color: $header-background;
     box-shadow: 0vw 0.4vh 0.5vh 0px #9b9a9a67;
-
+    
     &__img {
         width: 10vh;
     }

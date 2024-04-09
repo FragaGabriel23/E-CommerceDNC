@@ -8,15 +8,21 @@ const Login = () => {
         <section className='login'>
             <Header />
             <form className='login__form'>
-                <h1>Acesse com seu login ou cadastre-se!</h1>
-                <h2>você pode entrar com o seu CPF</h2>
+                <div className="login__text">
+                    <h1>Acesse com seu login ou cadastre-se!</h1>
+                    <h2>você pode entrar com o seu CPF</h2>
+                </div>
 
                 <div className="login__input-wrapper">
-                    <label htmlFor="login">Digite seu Login:</label>
-                    <input type='text' placeholder='Login' name='login' required></input>
+                    <div className='login__input'>
+                        <label htmlFor="login">Digite seu Login:</label>
+                        <input type='text' placeholder='Login' name='login' required></input>
+                    </div>
 
-                    <label htmlFor="password">Senha:</label>
-                    <input type='password' placeholder='***************' name='password' required></input>
+                    <div className='login__input'>
+                        <label htmlFor="password">Senha:</label>
+                        <input type='password' placeholder='***************' name='password' required></input>
+                    </div>
                 </div>
 
                 <button type='submit'>

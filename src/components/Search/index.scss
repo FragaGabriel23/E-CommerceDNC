@@ -1,9 +1,12 @@
 @use '../../sass/variables' as *;
+@use '../../sass/mediaQueries' as *;
 
 .Search {
     display: flex;
+    justify-content: center;
     gap: 3vw;
-    padding: 5vh 0 5vh 7vw;
+    padding: 5vh 0;
+
 
     &__Icons {
         display: flex;
@@ -12,25 +15,41 @@
 
         img {
             width: 1.8vw;
+
+            @include respond-to-small {
+                width: 4vw;
+            }
+
+            @include respond-to-medium {
+                width: 3vw;
+            }
         }
+
     }
 }
 
 .Search__input {
     position: relative;
-    
 
     input {
         width: 81vw;
         height: 5vh;
-        border-radius: 10px;
-        border: 1px solid $border-input-color;
+        border-radius: 0.5rem;
+        border: 0.1rem solid $border-input-color;
         padding-left: 4vw;
 
-        font-size: 1.1vw;
-        font-style: normal;
+        font-size: 1rem;
         font-weight: 400;
-        line-height: normal;
+
+        @include respond-to-small {
+            font-size: 0.7rem;
+            padding-left: 9vw;
+        }
+
+        @include respond-to-medium {
+            height: 7vh;
+            padding-left: 5vw;
+        }
     }
 
     img {
@@ -42,4 +61,3 @@
     }
 
 }
-

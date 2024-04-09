@@ -1,4 +1,5 @@
 @use '../../sass/variables' as *;
+@use '../../sass/mediaQueries' as *;
 
 .home__products {
     display: grid;
@@ -6,4 +7,12 @@
     justify-content: space-evenly;
     row-gap: 5vh;
     padding: 1vh 0;
+
+    @include respond-to-small {
+        grid-template-columns: auto;
+    }
+
+    @include respond-to-medium {
+        grid-template-columns: auto auto;
+    }
 }

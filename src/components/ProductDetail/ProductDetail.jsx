@@ -27,16 +27,12 @@ const ProductDetail = ({ data }) => {
           <h2>
             Cor:{" "}
             {
-              data.colors.length === 1
-                ? data.colors.map((color, index) => (
-                  <span key={index}>{color}</span>
-                ))
-                : data.colors.map((color, index) =>
-                  index + 1 === data.colors.length ? (
-                    <span key={index}>{color}</span>) : (
-                    <span key={index}>{color}, </span>
-                  )
-                )}
+              data.colors.map((color, index) =>
+                index + 1 === data.colors.length ?
+                  (<span key={index}>{color}</span>) :
+                  (<span key={index}>{color}, </span>)
+              )
+            }
           </h2>
           <div className='ProductDetail__cube-color'>
             {data.colors.map((color) => (

@@ -34,37 +34,30 @@ const ProductDetail = ({ data }) => {
               )
             }
           </h2>
-          <div className='ProductDetail__cube-color'>
-            {data.colors.map((color) => (
-              <div
-                style={{
-                  width: "5vw",
-                  height: "10vh",
-                  borderRadius: "10px",
-                  backgroundColor: color,
-                  border: "1px solid #7a7a7a"
-                }}>
-              </div>
-            ))}
-
+          <div className='ProductDetail__cubeColor'>
+            {
+              data.colors.map((color, i) => (
+                <label key={i}>
+                  <input className="cubeColor-input" type="radio" name="color" value={color}/>
+                  <span className="cubeColor-tile" style={{backgroundColor: color}}>
+                    <span className="cubeColor-label"></span>
+                  </span>
+                </label>
+              ))
+            }
           </div>
           <h2>Tamanho:</h2>
-          <div className='ProductDetail__cube-sizes'>
-            {data.sizes.map((size) => (
-              <span
-                style={{
-                  width: "5vw",
-                  height: "10vh",
-                  borderRadius: "10px",
-                  border: "1px solid #7a7a7a",
-                  padding: "20px",
-                  textTransform: "uppercase",
-                  textAlign: "center"
-                }}
-              >
-                {size}
-              </span>
-            ))}
+          <div className='ProductDetail__cubeSizes'>
+            {
+              data.sizes.map((size, i) => (
+                <label key={i}>
+                  <input className="size-input" type="radio" name="size" value={size}/>
+                  <span className="size-tile">
+                    <span className="size-label">{size}</span>
+                  </span>
+                </label>
+              ))
+            }
           </div>
         </div>
         <button><Link to={`/pay/${data.id}`}>Finalizar Compra</Link></button>

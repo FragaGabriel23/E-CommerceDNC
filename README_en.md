@@ -34,12 +34,19 @@ The DNC Store requested the creation of the interface for a UI designer, and sho
 ## Features
 
 :heavy_check_mark: User login
+
 :heavy_check_mark: Main pages: Login, home page, product page, shopping cart page, checkout page
+
 :heavy_check_mark: Product details (name, description, price, images)
+
 :heavy_check_mark: Shopping cart total calculation
+
 :heavy_check_mark: Customer information (delivery address, payment information)
+
 :heavy_check_mark: Payment methods (Credit Card, Pix, Boleto)
+
 :heavy_check_mark: Order summary before finalization
+
 :heavy_check_mark: Ensure the website is optimized for mobile and desktop devices
 
 ## Application Deployment :dash:

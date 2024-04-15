@@ -34,12 +34,19 @@ A DNC Store solicitou a criação da interface para um UI designer, e logo em se
 ## Funcionalidades
 
 :heavy_check_mark: Login de usuário
+
 :heavy_check_mark: Páginas principais: Login, página inicial, página de produto, página de carrinho de compras, página de checkout
+
 :heavy_check_mark: Detalhes do produto (nome, descrição, preço, imagens)
+
 :heavy_check_mark: Cálculo do total do carrinho
+
 :heavy_check_mark: Informações do cliente (endereço de entrega, informações de pagamento)
+
 :heavy_check_mark: Métodos de pagamento (Cartão de Crédito, Pix, Boleto)
+
 :heavy_check_mark: Resumo do pedido antes da finalização
+
 :heavy_check_mark: Garantir que o site seja otimizado para dispositivos móveis e desktops
 
 ## Deploy da Aplicação :dash:

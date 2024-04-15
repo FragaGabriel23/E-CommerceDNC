@@ -8,7 +8,7 @@ const HeaderMenu = (props) => {
     <nav className='Header-Menu'>
 
       <ul>
-        <li className='Header-Menu--select'><Link to={"/home"}>Home</Link></li>
+        <li className='Header-Menu--select'><Link to={"/"}>Home</Link></li>
         <li>Novidades</li>
         <li>Feminino</li>
         <li>Masculino</li>
@@ -16,7 +16,9 @@ const HeaderMenu = (props) => {
       </ul>
 
       <div>
-        <h2>Meu Carrinho</h2>
+        <Link to={"/login"}>
+          <h2>Meu Carrinho</h2>
+        </Link>
         <img className='Header-Menu__img' src={cartshop} alt="Carrinho" />
       </div>
 

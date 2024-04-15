@@ -6,6 +6,19 @@
     grid-template-columns: 2fr 5fr;
     padding: 0 15vw 10vh;
     column-gap: 5vw;
+
+    @include respond-to-small {
+        grid-template-columns: 1fr;
+        padding: 0 5vw 10vh;
+    }
+
+    @include respond-to-medium {
+        padding: 5vh 2vw 10vh;
+    }
+
+    @include respond-to-large {
+        padding: 0 10vw 10vh;
+    }
 }
 
 .ProductDetail__Left {
@@ -52,6 +65,18 @@
         font-size: 2rem;
         font-style: normal;
         font-weight: 500;
+
+        @include respond-to-small {
+            font-size: 1.5rem;
+        }
+
+        @include respond-to-medium {
+            font-size: 1.5rem;
+        }
+
+        @include respond-to-large {
+            font-size: 1.5rem;
+        }
     }
 
     h2 {
@@ -59,6 +84,18 @@
         font-size: 1.5rem;
         font-style: normal;
         font-weight: 400;
+
+        @include respond-to-small {
+            font-size: 1rem;
+        }
+
+        @include respond-to-medium {
+            font-size: 1rem;
+        }
+
+        @include respond-to-large {
+            font-size: 1rem;
+        }
     }
 
 }
@@ -72,10 +109,23 @@
     &--Title {
         text-align: center;
         text-shadow: 0px 4px 4px rgba(203, 203, 203, 0.25);
-        font-size: 2.5rem;
+        font-size: 2.3rem;
         font-style: normal;
         font-weight: 400;
-        padding: 1vh 0 5vh 0;
+        padding: 1vh 0 5vh;
+
+        @include respond-to-small {
+            font-size: 1.5rem;
+            padding: 4vh 0 2vh;
+        }
+
+        @include respond-to-medium {
+            font-size: 1.2rem;
+        }
+
+        @include respond-to-large {
+            font-size: 2rem;
+        }
     }
 
     button {
@@ -105,6 +155,18 @@
         font-size: 2.5rem;
         font-style: normal;
         font-weight: 600;
+
+        @include respond-to-small {
+            font-size: 2rem;
+        }
+
+        @include respond-to-medium {
+            font-size: 1.5rem;
+        }
+
+        @include respond-to-large {
+            font-size: 2rem;
+        }
     }
 
     h2 {
@@ -112,6 +174,18 @@
         font-size: 1.8rem;
         font-style: normal;
         font-weight: 400;
+
+        @include respond-to-small {
+            font-size: 1.5rem;
+        }
+
+        @include respond-to-medium {
+            font-size: 1rem;
+        }
+
+        @include respond-to-large {
+            font-size: 1.5rem;
+        }
     }
 
 }
@@ -169,6 +243,21 @@
     transition: 0.15s ease;
     cursor: pointer;
     position: relative;
+
+    @include respond-to-small {
+        width: 5vh;
+        height: 5vh;
+    }
+
+    @include respond-to-medium {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    @include respond-to-large {
+        width: 5vw;
+        height: 5vw;
+    }
 }
 
 .cubeColor-tile:before {
@@ -265,6 +354,21 @@
     transition: 0.15s ease;
     cursor: pointer;
     position: relative;
+
+    @include respond-to-small {
+        width: 5vh;
+        height: 5vh;
+    }
+
+    @include respond-to-medium {
+        width: 5vw;
+        height: 5vw;
+    }
+
+    @include respond-to-large {
+        width: 5vw;
+        height: 5vw;
+    }
 }
 
 .size-tile:before {
@@ -298,6 +402,18 @@
     text-transform: uppercase;
     font-size: 2rem;
     font-weight: 600;
+
+    @include respond-to-small {
+        font-size: 1rem;
+    }
+
+    @include respond-to-medium {
+        font-size: 1rem;
+    }
+
+    @include respond-to-large {
+        font-size: 1.5rem;
+    }
 }
 
 .size-input {

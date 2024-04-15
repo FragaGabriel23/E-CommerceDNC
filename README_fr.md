@@ -28,7 +28,7 @@
 ## Description du projet
 
 <p align="justify">
-La DNC Store a demandé la création de l'interface pour un concepteur UI, et j'ai été sélectionné pour développer l'interface selon la conception et les besoins des utilisateurs.
+La DNC Store a demandé la création de l'interface pour un designer UI, et j'ai ensuite été sélectionné pour développer l'interface selon la conception et les prémisses des besoins de l'utilisateur.
 </p>
 
 ## Fonctionnalités

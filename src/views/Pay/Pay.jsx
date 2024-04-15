@@ -60,7 +60,7 @@ const Pay = ({ data }) => {
             </div>
 
             <button type="submit">
-              <Link to={"/home"}>Enviar Pedido</Link>
+              <Link to={"/"}>Enviar Pedido</Link>
             </button>
 
           </form>

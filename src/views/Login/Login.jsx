@@ -17,7 +17,7 @@ const Login = () => {
 
         loginData.login === '' && loginData.password === ''
             ?
-            window.location.href = '/home'
+            window.location.href = '/'
             :
             alert('Login ou senha incorretos!');
 

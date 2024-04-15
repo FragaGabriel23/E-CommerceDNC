@@ -35,7 +35,7 @@ La DNC Store a demandé la création de l'interface pour un designer UI, et j'ai
 
 :heavy_check_mark: Connexion utilisateur
 
-:heavy_check_mark: Pages principales: Connexion, page d'accueil, page produit, page panier, page de paiement
+:heavy_check_mark: Pages principales: Connexion, page d'accueil, page de produit, page de panier d'achat, page de paiement
 
 :heavy_check_mark: Détails du produit (nom, description, prix, images)
 
@@ -47,7 +47,8 @@ La DNC Store a demandé la création de l'interface pour un designer UI, et j'ai
 
 :heavy_check_mark: Résumé de la commande avant la finalisation
 
-:heavy_check_mark: Assurer que le site est optimisé pour les appareils mobiles et de bureau
+:heavy_check_mark: Assurer que le site soit optimisé pour les appareils mobiles et les ordinateurs de bureau
+
 
 ## Déploiement de l'application :dash:
 
